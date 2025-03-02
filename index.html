@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google font link -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+        <!-- Leaflet CSS file -->
+        <link rel="stylesheet" href="resouces/leaflet.css">
+
+        <!-- My CSS file -->
+        <link rel="stylesheet" href="style.css">
+        <title>Pizza Stores Location</title>
+    </head>
+    <body>
+        <main>
+            <!-- Create a div for store details list -->
+            <div class="store-list">
+                <div class="heading">
+                    <h2><center>Our Outlets</center></h2>
+                </div>
+                <ul class="list"></ul>
+            </div>
+
+            <!-- Create a div for main map view -->
+            <div id="map">
+
+            </div>
+        </main>
+
+ 
+        <!-- Leaflet JS file -->
+        <script src="resouces/leaflet.js"></script>
+        <script src="resouces/leaflet-src.js"></script>
+
+        <!-- GeoJSON file for store details -->
+        <script src="stores.js"></script>
+
+        <!-- Leaflet JS file -->
+        <script src="main.js"></script>
+
+        
+    
+    </body>
+</html>
